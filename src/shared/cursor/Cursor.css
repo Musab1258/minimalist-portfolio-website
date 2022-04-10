@@ -1,0 +1,53 @@
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  mix-blend-mode: exclusion;
+  background-color: #ffffff;
+  border-radius: 100%;
+  pointer-events: none;
+  z-index: 10000000;
+  position: absolute;
+
+  transition: all 0.5s ease-out;
+}
+
+.custom-cursor-ii {
+  width: 6px;
+  height: 6px;
+  background-color: #bebebe;
+  border-radius: 100%;
+  pointer-events: none;
+  z-index: 10000000;
+  position: absolute;
+  mix-blend-mode: exclusion;
+
+  transition: all 0.1s ease-out;
+}
+
+@media screen and (max-width: 750px) {
+  .custom-cursor,
+  .custom-cursor-ii {
+    display: none;
+  }
+}
+
+/* .hover-mode.custom-cursor-ii {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.hover-mode.custom-cursor{
+  opacity: 0.2;
+  border: 1px solid grey;
+  border-radius: 0;
+  background: none;
+  max-width: 80px;
+  max-height: 80px;
+  width: 80px;
+  height: 80px;
+  margin-left: -30px;
+  margin-top: -30px;
+  transition: all 0.2s ease-out;
+} */

@@ -1,0 +1,89 @@
+/*===== IMPORTING FONTS =====*/
+
+@font-face {
+  font-family: 'air-regular';
+  src: url('../assets/fonts/AirbnbCereal-Book.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+  font-family: 'air-semibold';
+  src: url('../assets/fonts/AirbnbCereal-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+@font-face {
+  font-family: 'air-light';
+  src: url('../assets/fonts/AirbnbCereal-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+@font-face {
+  font-family: 'air-bold';
+  src: url('../assets/fonts/AirbnbCereal-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+@font-face {
+  font-family: 'air-extrabold';
+  src: url('../assets/fonts/AirbnbCereal-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+@font-face {
+  font-family: 'air-black';
+  src: url('../assets/fonts/AirbnbCereal-Black.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+/* * {
+  font-family: 'air-light';
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'air-light';
+  /* background: #101011; */
+  background-color: #151515;
+  color: #fff;
+}
+
+#___gatsby, #gatsby-focus-wrapper {height: 100%;}
+
+
+p {
+  font-size: var(--normal-font);
+}
+
+@media (min-width: 1400px) {
+  .layout {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
+body {
+  --h1-font: 2.5rem;
+  --h2-font: 2.2rem;
+  --h3-font: 1.3rem;
+  --h4-font: 1.2rem;
+  --project-font: 1.1rem;
+  --semi-font: 1rem;
+  --normal-font: 0.8rem;
+  --small-font: 0.75rem;
+  --xsmall-font: 0.7rem;
+}
+
+@media (min-width: 1440px) {
+  body {
+    --h1-font: 2.7rem;
+    --h2-font: 2.4rem;
+    --h3-font: 1.5rem;
+    --h4-font: 1.4rem;
+    --project-font: 1.3rem;
+    --semi-font: 1.1rem;
+    --normal-font: 0.95rem;
+    --small-font: 0.8rem;
+    --xsmall-font: 0.75rem;
+  }
+}
+
+html #prismic-toolbar-v2 {
+  display: none !important;
+}
