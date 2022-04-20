@@ -1334,6 +1334,7 @@
     .project__image_mobile {
         display: block;
         width: 100%;
+        height: 25%;
         margin: 0;
     }
 
